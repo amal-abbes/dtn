@@ -1,6 +1,6 @@
-# DARKSOL VM Setup & Networking
+#  VM Setup & Networking
 
-This repository contains the **current state of the VM setup, network configuration, automated testing, and Kubernetes deployment** for the DARKSOL project at TU Dresden.
+This repository contains the **current state of the VM setup, network configuration, automated testing, and Kubernetes deployment** from the master thesis with future intended steps.
 
 ## 📌 Overview
 - **Goal**: Implement a delay- and interruption-tolerant cloud infrastructure for space applications.
