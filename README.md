@@ -1,19 +1,31 @@
-# dtn
-# Amal's Thesis Implementation
 
-Implements Chapters 4-6 of the master thesis, focusing on a delay-tolerant cloud infrastructure.
+# DARKSOL VM Setup & Networking
 
-## Overview
-- **Ground Station**: 192.168.26.10 (data), 192.168.81.133 (management).
-- **Spacecraft**: 192.168.63.10 (data), 192.168.81.134 (management), Kubernetes installed.
-- **Router**: 192.168.26.1, 192.168.63.1 (routing), 192.168.32.141 (NAT).
-- **Status**: Network and test automation complete; Kubernetes installed; µD3TN and DSN data collection pending due to storage limits.
+This repository contains the current state of the VM setup and network configuration for the DARKSOL project at TU Dresden.
 
-## Setup
-See `docs/setup.md` for VM configuration and setup steps.
+## 📌 Overview
+- **Goal**: Implement a delay- and interruption-tolerant cloud infrastructure for space applications.
+- **Current Progress**:
+  - ✅ Ground and Spacecraft VMs can communicate via the Router.
+  - ✅ Network bridge configured on Router (ens37 + ens38 → br0).
+  - ✅ NAT enabled for Ground & Spacecraft to access the Internet via Router.
+  - ✅ Traffic control (`tc`) applied to simulate network delays and loss.
 
-## Current State
-See `docs/current-state.md`.
+## 📁 Repository Contents
+| File                  | Description |
+|-----------------------|-------------|
+| `NETWORK_SETUP.md`     | Detailed network configuration |
+| `VM_CONFIGURATION.md`  | VM setup details (cloud-init, disk space, etc.) |
+| `TEST_RESULTS.md`      | Results of network tests (ping, TCPDump logs) |
+| `ISSUES_AND_TODO.md`   | Issues encountered and next steps |
+| `scripts/`            | Automation scripts (networking, traffic shaping, etc.) |
+| `configs/`            | Netplan configuration files for VMs |
 
-## Purpose
-Documentation for meeting with Sebastian, Feb 25, 2025.
+## 🚀 Next Steps
+- Final validation of NAT and routing setup.
+- Deployment of containerized applications (Kubernetes).
+- Performance testing under simulated delays.
+
+---
+**Author:** Amal Abbes  
+**Date:** February 2025
