@@ -16,6 +16,4 @@ This document details the network setup that I used. The **Router VM** acts as a
 ## 🔄 Routing Table
 ```bash
 ip route
-Below is the routing table for the Ground VM:
 
-![Ground VM Routing Table](ip route ground.png)
