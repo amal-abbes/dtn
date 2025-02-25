@@ -26,9 +26,9 @@ ip route
 
 | VM Name   | vCPU | RAM  | Storage |
 |-----------|------|------|---------|
-| Router    | 2    | 6GB  | 10GB (extension needed) |
-| Ground    | 2    | 6GB  | 10GB    (extension needed)|
-| Spacecraft | 2    | 6GB  | 10GB  (extension needed)  |
+| Router    | 2    | 6GB  |  default (extension needed) |
+| Ground    | 2    | 6GB  |    (extension needed)|
+| Spacecraft | 2    | 6GB  |  (extension needed)  |
 
 ## 🛠️ Installed Packages
 - **Router VM**:
