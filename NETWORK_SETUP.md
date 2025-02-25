@@ -14,6 +14,7 @@ This document details the network setup that I used. The **Router VM** acts as a
 | **Spacecraft** | `ens37`   | `192.168.63.10/24` | Connected to Router |
 
 All Configured in /etc/netplan/50-cloud-init.yaml
+
 ## 🔄 Routing Table
 ```bash
 ip route
