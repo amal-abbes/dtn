@@ -11,7 +11,7 @@ This repository contains the **current state of the VM setup, network configurat
   - ✅ **Traffic control (`tc`) applied** for simulating delays & loss.
   - ✅ **Automated ping testing script** deployed.
   - ✅ **Docker & Kubernetes installed for container orchestration**.
-  - ⏳ **uDTN implementation is pending due to storage issues**.
+  - ⏳ **uDTN implementation and monitoring tools are pending due to storage issues**.
 
 ## 📁 Repository Contents
 | File                  | Description |
