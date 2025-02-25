@@ -29,7 +29,7 @@
 | Task | Status | Notes |
 |------|--------|-------|
 | Expand Router Storage | ✅ | Completed |
-| Reinstall & Reconfigure MicroK8s | ✅ | Successfully rejoined cluster |
+| Reinstall & Reconfigure MicroK8s | ✅ | Successfully rejoined cluster and all pods running |
 | Setup Kubernetes Deployments | ⏳ | Pending uD3TN testing |
 | Automate Network Testing (ping, tc, iperf) | ✅ | Implemented in simple scripts (introducing delays and ping tests) |
 | Deploy uD3TN for DTN Simulation | ⏳ | Pending encountered some errors |
